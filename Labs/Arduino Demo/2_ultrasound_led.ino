@@ -48,8 +48,8 @@ void loop()
   Serial.println();
 
   // creating a statement saying:
-  // if the distance (cm) is greater than 30 then turn on pin 11 (LED #1)
-  // if the distance (cm) is greater than 15 and equal to or less than 30 then turn on pin 10 (LED #2)
+  // if the distance (cm) is greater than 10 then turn on pin 11 (LED #1)
+  // if the distance (cm) is greater than 5 and equal to or less than 10 then turn on pin 10 (LED #2)
   // if the distance (cm) is anything else, turn on pin 9 (LED #3)
   if(cm > 10) 
     {
